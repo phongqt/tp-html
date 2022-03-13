@@ -1,4 +1,3 @@
-/*!/wp-content/themes/helenspa/framework/js/custom.js*/
 jQuery.noConflict();
 jQuery(document).ready(function($) {
     "use strict";
@@ -235,30 +234,7 @@ jQuery(document).ready(function($) {
             })
         }
     });
-    $(".dt-like-this").on('click', function() {
-        var el = jQuery(this);
-        if (el.hasClass('liked')) {
-            return !1
-        }
-        var post = {
-            action: 'helenspa_likes_ajax',
-            post_id: el.attr('data-id')
-        };
-        return !1
-    });
     $('input, textarea').placeholder();
-    // $("a.dt-sc-toggle-advanced-options").on('click', function(event) {
-    //     event.preventDefault();
-    //     var $this = $(this);
-    //     $this.parents('.wpsl-search').find("div.dt-sc-advanced-options").slideToggle("slow", function() {
-    //         $this.toggleClass('expanded');
-    //         if ($this.hasClass('expanded')) {
-    //             $this.html(dttheme_urls.advOptions + ' <span class="fa fa-angle-up"></span>')
-    //         } else {
-    //             $this.html(dttheme_urls.advOptions + ' <span class="fa fa-angle-down"></span>')
-    //         }
-    //     })
-    // });
     $().UItoTop({
         easingType: 'easeOutQuart'
     });

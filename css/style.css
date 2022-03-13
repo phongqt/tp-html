@@ -46574,10 +46574,6 @@ body .wpb_gallery_slides ul li {
     display: none
 }
 
-/*! /wp-content/cache/asset-cleanup/css/item/helenspa-base-v6445b5a22debccc2534b640a383ed1fd04d0a3e3.css */
-
-/*!/wp-content/themes/helenspa/css/base.css*/
-
 html,
 body,
 div,
@@ -47912,16 +47908,6 @@ div.pp_default .pp_details .pp_description {
     margin: auto
 }
 
-.dt-sc-shadow {
-    float: left;
-    clear: both;
-    margin: 0;
-    padding: 0;
-    background: url(/wp-content/themes/helenspa/css/../images/services-shadow.png) no-repeat;
-    width: 1168px;
-    height: 38px
-}
-
 .dt-sc-stamp-divider-down {
     float: left;
     clear: both;
@@ -48878,10 +48864,6 @@ input[type="search"]:focus {
     }
 }
 
-/*! /wp-content/cache/asset-cleanup/css/item/helenspa-grid-vba0b5d7e193ded3cbf76371c34bcbd745649723e.css */
-
-/*!/wp-content/themes/helenspa/css/grid.css*/
-
 .wrapper {
     clear: both;
     width: 100%;
@@ -49768,10 +49750,6 @@ video {
         max-width: 200px
     }
 }
-
-/*! /wp-content/cache/asset-cleanup/css/item/helenspa-layout-v3138808a3fde97bebffe3dc021bb28b7fe8c625a.css */
-
-/*!/wp-content/themes/helenspa/css/layout.css*/
 
 .menu-icons-wrapper .search a span,
 .menu-icons-wrapper .cart a span,
@@ -51921,40 +51899,6 @@ h1#site-title {
     background: #fff
 }
 
-.main-title-section-wrapper {
-    background-color: rgba(0, 0, 0, 0) !important
-}
-
-.main-title-section-wrapper>.main-title-section-bg {
-    background: rgba(0, 0, 0, .05);
-    content: "";
-    height: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    z-index: -1;
-    background: url(/wp-content/themes/helenspa/css/../images/breadcrumb.png) repeat rgba(0, 0, 0, .5)
-}
-
-.main-title-section-wrapper:before {
-    background: rgba(0, 0, 0, .05);
-    content: "";
-    height: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    z-index: -1
-}
-
-#header.header-top-absolute~.main-title-section-wrapper:before {
-    height: 9999px
-}
-
-#header-wrapper .header-top-absolute~.main-title-section-wrapper .main-title-section-bg {
-    height: 9999px
-}
 
 .header-top-absolute .vc_row {
     background-color: transparent !important;
@@ -54120,10 +54064,6 @@ ul.side-nav>li>ul>li>ul>li>a:hover {
         height: 200px !important
     }
 }
-
-/*! /wp-content/cache/asset-cleanup/css/item/helenspa-blog-v3a9beb8bceb9ea5670e0db466ec60c555ebd4afd.css */
-
-/*!/wp-content/themes/helenspa/css/blog.css*/
 
 .blog-entry.entry-date-author-left .entry-date-author .comments i,
 .blog-entry.blog-medium-style,
@@ -57707,22 +57647,6 @@ ul.commentlist li #respond {
     border-color: #f1efea
 }
 
-.blog-entry.entry-date-left.outer-frame-border .entry-details .entry-title h4 a:not(:hover),
-.blog-entry.entry-date-left.outer-frame-border .entry-details .dt-sc-button.filled,
-.blog-entry.entry-date-left.outer-frame-border .entry-details .entry-format a {
-    color: #000
-}
-
-.blog-entry.entry-date-left.outer-frame-border .entry-details .dt-sc-button.filled:hover {
-    color: rgba(0, 0, 0, .5)
-}
-
-.blog-entry.entry-date-left.outer-frame-border .entry-details,
-.blog-entry.entry-date-left.outer-frame-border .entry-date {
-    background-image: url(/wp-content/themes/helenspa/css/../images/pattern-grudge.png);
-    background-repeat: repeat
-}
-
 .dt-sc-dark-bg .blog-medium-style.white-highlight .dt-sc-button.fully-rounded-border:hover {
     color: #fff
 }
@@ -58345,10 +58269,6 @@ ul.commentlist li #respond {
     }
 }
 
-/*! /wp-content/cache/asset-cleanup/css/item/helenspa-contact-ve51f8360438d0364bfe21f0c1a9e36b1d9cd3ee3.css */
-
-/*!/wp-content/themes/helenspa/css/contact.css*/
-
 .business-contact-form {
     background: #fff;
     padding: 30px 15px;
@@ -58603,50 +58523,6 @@ ul.commentlist li #respond {
 
 .hosting-contact-form textarea {
     height: 196px
-}
-
-.restaurant-contact-form {
-    width: 100%;
-    float: right;
-    max-width: 570px;
-    padding: 30px 0 0
-}
-
-.restaurant-contact-form h3 {
-    margin-bottom: 25px;
-    padding-left: 10px
-}
-
-.restaurant-contact-form input[type="text"],
-.restaurant-contact-form input[type="email"],
-.restaurant-contact-form input[type="tel"],
-.restaurant-contact-form textarea {
-    background: none;
-    border-color: rgba(255, 255, 255, .2);
-    color: #fff
-}
-
-.restaurant-contact-form input[type="text"]:focus,
-.restaurant-contact-form input[type="email"]:focus,
-.restaurant-contact-form input[type="tel"]:focus,
-.restaurant-contact-form textarea:focus {
-    border-color: #b48b3c
-}
-
-.restaurant-contact-form input[type="submit"] {
-    margin-top: 0;
-    float: right
-}
-
-.restaurant-contact-bg:before {
-    content: "";
-    position: absolute;
-    right: -201px;
-    top: 0;
-    background: url(/wp-content/themes/helenspa/css/images/slanting-bg.png) no-repeat;
-    width: 201px;
-    height: 525px;
-    z-index: 9
 }
 
 .dt-sc-contact-details-on-map {
@@ -59495,10 +59371,6 @@ ul.commentlist li #respond {
         width: auto
     }
 }
-
-/*! /wp-content/cache/asset-cleanup/css/item/helenspa-custom-class-v33252b3320d0d365e74a00672194bd59d04468d4.css */
-
-/*!/wp-content/themes/helenspa/css/custom-class.css*/
 
 a.video-image span:after {
     -webkit-transition: all 0.3s linear;
@@ -60698,28 +60570,6 @@ footer .footer-info-content .vc_column_container>.vc_column-inner {
     padding: 0
 }
 
-.curved-bg {
-    width: 810px;
-    position: relative
-}
-
-.curved-bg:before {
-    content: "";
-    position: absolute;
-    display: block;
-    right: -393px;
-    top: 0;
-    width: 393px;
-    height: 100%;
-    -webkit-mask-image: url(/wp-content/themes/helenspa/css/../images/slope-img.png);
-    mask-image: url(/wp-content/themes/helenspa/css/../images/slope-img.png);
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-    -webkit-mask-position: left top;
-    mask-position: left top;
-    background-color: #f7f6ed
-}
-
 .vc_row.right-center-img {
     background-position: right center !important
 }
@@ -61287,10 +61137,6 @@ footer .footer-info-content .vc_column_container>.vc_column-inner {
         margin-right: 5px
     }
 }
-
-/*! /wp-content/cache/asset-cleanup/css/item/helenspa-browsers-v61285a656e25846c7ad3fdac7877fede2221f4fd.css */
-
-/*!/wp-content/themes/helenspa/css/browsers.css*/
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     ::i-block-chrome,
@@ -62190,13 +62036,6 @@ div.ppt {
 .pp_pic_holder.is-single .pp_hoverContainer {
     display: none !important
 }
-
-/*! /wp-content/themes/helenspa/css/font-awesome.min.css */
-
-/*!
- *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
- */
 
 @font-face {
     font-family: 'FontAwesome';
@@ -65238,10 +65077,6 @@ div.ppt {
     clip: auto
 }
 
-/*! /wp-content/cache/asset-cleanup/css/item/pe-icon-7-stroke-v6e4f27b631862ab396d2e674c66392b1455cc21e.css */
-
-/*!/wp-content/themes/helenspa/css/pe-icon-7-stroke.css*/
-
 @font-face {
     font-family: 'Pe-icon-7-stroke';
     src: url(../fonts/Pe-icon-7-stroke.eot?d7yf1v);
@@ -67277,10 +67112,6 @@ html:not(.vc_transform) .entry-body p.has-large-font-size+p {
 .wp-block-latest-comments__comment {
     font-size: 18px
 }
-
-/*! /wp-content/cache/asset-cleanup/css/item/helenspa-popup-css-v9b3a282718ee456cf1ecfa1187b482dca5fd5065.css */
-
-/*!/wp-content/themes/helenspa/framework/js/magnific/magnific-popup.css*/
 
 .mfp-bg {
     top: 0;
