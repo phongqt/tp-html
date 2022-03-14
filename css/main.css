@@ -1995,7 +1995,7 @@ ul#dt-1516194588103-6b43becf-c719>li>a:hover>i {
 .swiper {
     width: 100%;
     height: 100%;
-    margin-top: 120px;
+    margin-top: 100px;
   }
 
   .swiper-slide {
@@ -2087,4 +2087,46 @@ ul#dt-1516194588103-6b43becf-c719>li>a:hover>i {
   }
   .main, #footer{
       background-color: #f7f6ed;
+  }
+  @media only screen and (max-width:991px) {
+    .swiper-wrapper .swiper-slide .slide-body {
+        font-size: 26px;
+    }
+  }
+  @media only screen and (max-width:576px) {
+    .dt-header-tpl .vc_column_container {
+        margin-bottom: 0px;
+    }
+
+    .swiper-wrapper .swiper-slide .slide-body {
+        letter-spacing: 2px;
+    }
+  }
+  
+  @media only screen and (max-width:479px) {
+    .swiper-wrapper .swiper-slide .slide-body {      
+        font-size: 21px;
+    }
+  }
+  @media only screen and (max-width:319px) {
+    .swiper-wrapper .swiper-slide .slide-body {      
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+    .swiper-wrapper .swiper-slide .slide-fot {
+        letter-spacing: 3px;
+    }
+    .swiper-wrapper .swiper-slide .slide-tit {
+        font-size: 45px;
+    }
+  }
+  @media only screen and (max-width:767px) {
+      .swiper {
+          margin-top: 20px;
+      }
+  }
+  @media only screen and (max-width:1199px) {
+    .swiper {
+        margin-top: 0px;
+    }
   }
